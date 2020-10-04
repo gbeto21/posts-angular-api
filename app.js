@@ -15,6 +15,7 @@ mongoose
     //app.listen(config.PORT || 5000)
   })
   .catch(err => {
+    console.log('Error connecting to te database.');
     console.log(err);
   })
 
